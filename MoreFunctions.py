@@ -63,4 +63,8 @@ def calculatorDep(Num1, Num2, OP):
     else:
         return "Invalid Input"
 
-def 
+def abbrevation(Phrases):
+    return Phrases[0]
+    for i in Phrases:
+        if i == " ":
+            return i + 1
