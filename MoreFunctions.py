@@ -37,7 +37,7 @@ def calcDistanceDep(Speed, Time):
 def mileToKMDep(Input):
     return "Approx. result:", Input * 1.609
 
-defed
+
 #Independant Function
 def fibonacciSeqInd(n):
     F1 = 1
@@ -51,7 +51,8 @@ def fibonacciSeqInd(n):
         F2 = Fnext
 
 def calculatorDep(Num1, Num2, OP):
-    int(Num1)+int(Num2)
+    int(Num1)
+    int(Num2)
     if OP == "+" :
         return Num1 + Num2
     elif OP == "-":
@@ -63,8 +64,8 @@ def calculatorDep(Num1, Num2, OP):
     else:
         return "Invalid Input"
 
-def abbrevation(Phrases):
-    return Phrases[0]
-    for i in Phrases:
-        if i == " ":
-            return i + 1
+#def abbrevation(Phrases):
+ #   return Phrases[0]
+  #  for i in Phrases:
+   #     if i == " ":
+    #        return i + 1
