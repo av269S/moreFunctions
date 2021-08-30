@@ -69,3 +69,6 @@ def calculatorDep(Num1, Num2, OP):
   #  for i in Phrases:
    #     if i == " ":
     #        return i + 1
+
+def SriramisaTrashCan():
+    print("SRIRAM IS A TRASH CAN YAY")
