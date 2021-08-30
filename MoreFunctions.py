@@ -69,3 +69,10 @@ def calculatorDep(Num1, Num2, OP):
   #  for i in Phrases:
    #     if i == " ":
     #        return i + 1
+
+def totalCalcDep(Numbers):
+    int(Numbers)
+    sum = 0
+    for num in Numbers:
+        sum += num
+    return sum
