@@ -75,6 +75,10 @@ def calculatorDep(Num1, Num2, OP):
         return Num1 * Num2
     else:
         return "Invalid Input"
+    
+def encrypt(Phrase):
+    str(Phrase)
+    return Phrase.encode(encoding="UTF-8", errors="strict")
 
 #def abbrevation(Phrases):
  #   return Phrases[0]
