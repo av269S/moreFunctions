@@ -81,4 +81,13 @@ def calculatorDep(Num1, Num2, OP):
   #  for i in Phrases:
    #     if i == " ":
     #        return i + 1
+    
+def classify(img):
+    path=("/content/drive/My Drive/Colab Notebooks/object classifier/")
+    image=cv2.imread(path+img)
+    bbox,label,conf=cv.detect_common_objects(image,model="yolov3")
+    print(bbox,label,conf)
+    output=draw_bbox(image,bbox,label,conf)
+    cv2.imwrite(path+"object detected.jpg",output)
+    display(Image(filename=path+"object detected.jpg"))
 
