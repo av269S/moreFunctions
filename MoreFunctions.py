@@ -1,3 +1,11 @@
+#Import Modules
+
+import tkinter
+import datetime
+import time
+import random
+import turtle
+
 #State Variables
 
 F1 = 0
@@ -70,9 +78,3 @@ def calculatorDep(Num1, Num2, OP):
    #     if i == " ":
     #        return i + 1
 
-#def totalCalcDep(Numbers):
-#    int(Numbers)
-#    sum = 0
-#    for num in Numbers:
-#        sum += num
-#    return sum
