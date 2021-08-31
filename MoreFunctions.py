@@ -94,3 +94,6 @@ def classify(img):
     output=draw_bbox(image,bbox,label,conf)
     cv2.imwrite(path+"object detected.jpg",output)
     display(Image(filename=path+"object detected.jpg"))
+def animeTrash():
+    while True:
+        print("Anime Trash")
