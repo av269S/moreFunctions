@@ -9,6 +9,7 @@ import cv2
 import cvlib as cv
 from cvlib.object_detection import draw_bbox
 from IPython.display import Image
+import pyautogui as pag
 
 #State Variables
 
@@ -94,6 +95,7 @@ def classify(img):
     output=draw_bbox(image,bbox,label,conf)
     cv2.imwrite(path+"object detected.jpg",output)
     display(Image(filename=path+"object detected.jpg"))
-def animeTrash():
+
+def foreverAutoTyper(Phrase):
     while True:
-        print("Anime Trash")
+        pag.typewrite(Phrase)
